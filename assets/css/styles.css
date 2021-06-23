@@ -1,0 +1,82 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+  }
+
+
+.timer {
+
+    position: absolute;
+    top: 11px;
+    right: 50px;
+    color:rgb(153, 75, 199);
+    font-weight: bold;
+
+}
+#highscores {
+    position: absolute;
+    top: 11px;
+    left: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(153, 75, 199);
+}
+nav-container {
+    position: relative;
+    width: 100%;
+    font-weight: bolder;
+    margin-top: 1em;
+    font-size: 20px;
+    height: 40px;
+   
+}
+
+
+.wrapper {
+    margin: 120px auto 0 auto;
+    max-width: 650px;
+}
+
+  
+
+
+  button {
+    display: inline-block;
+    margin: 7px;
+    cursor: pointer;
+    font-size: 90%;
+    font-weight: bold;
+    background-color: rgba(102, 44, 136, 0.664);
+    border-radius: 8px;
+    padding: 4px 10px;
+    color: rgba(255, 255, 255, 0.747);
+    border: 0;
+    transition: background-color 0.1s;
+}
+
+  .hide {
+    display: none;
+}
+
+.rightWrong {
+    font-style: bold;
+    font-size: 80%;
+    margin-top: 15px;
+    padding-top: 10px;
+    color: rgb(172, 48, 48);
+  }
+
+  
+.answers button {
+    display: block;
+}
+
+  button:hover {
+    background-color: #4e307ace;
+}
+
+input[type="text"] {
+    font-size: 100%;
+  }
