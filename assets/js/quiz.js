@@ -97,7 +97,7 @@ function buttonclick(answerChoice) {
 }
 
   function setHighscore() {
-
+    //takes input and converts to uppercase
     var initials = initialEl.value.toUpperCase();
     if (initials === "") {
         alert("Please type your initials");
